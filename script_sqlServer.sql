@@ -7,16 +7,16 @@ GO
 USE [BANKING]
 
 --CREATE TABLES
---CREATE TABLE CENTRAL BANK
+--CREATE TABLE CENTRAL BANK, table name with centrals in plural
 CREATE TABLE CENTRALS
 (
-    id_central INT PRIMARY KEY IDENTITY(1,1),
+    id_central INT PRIMARY KEY IDENTITY(1,1), --sufix central
     name_central NVARCHAR(100) NOT NULL,
-    address_centrral NVARCHAR(100) NOT NULL,
-    phone_central NVARCHAR(20) NOT NULL,
-    email_central NVARCHAR(100) NOT NULL,
-    CREATED_DATE DATETIME NOT NULL,
-    UPDATED_DATE DATETIME NOT NULL
+    address_central NVARCHAR(100) NOT NULL,
+    phone_central NVARCHAR(20) NOT NULL, --required is not nuled and not empty
+    email_central NVARCHAR(100) NOT NULL, --required is not nuled and not empty or null
+    CREATED_DATE DATETIME NOT NULL, 
+    UPDATED_DATE DATETIME NOT NULL --restricted is not nuled and not empty or null
 );
 
 --CREATE TABLE BRANCHES
