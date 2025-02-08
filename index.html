@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeProduct - Transform Your Workflow</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .hero-section {
+            padding: 6rem 0;
+            background-color: #f8f9fa;
+        }
+        .features-section {
+            padding: 5rem 0;
+        }
+        .pricing-section {
+            padding: 5rem 0;
+            background-color: #f8f9fa;
+        }
+        .testimonials-section {
+            padding: 5rem 0;
+        }
+        .feature-icon {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 0.75rem;
+            background-color: #0d6efd;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        .testimonial-img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="bi bi-lightning-charge-fill me-2"></i>
+                FakeProduct
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-lg-3" href="#contact">Empezar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Transform your workflow with FakeProduct</h1>
+                    <p class="lead mb-4">Streamline your process, boost productivity, and achieve more with our innovative solution.</p>
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-primary btn-lg">Start Free Trial</button>
+                        <button class="btn btn-outline-secondary btn-lg">Watch Demo</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-light p-5 text-center rounded">
+                        <p class="text-muted">Hero Image Placeholder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h3>Secure Platform</h3>
+                        <p class="text-muted">Enterprise-grade security to protect your data and privacy at all times.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="bi bi-rocket-takeoff"></i>
+                        </div>
+                        <h3>Fast Performance</h3>
+                        <p class="text-muted">Lightning-fast speeds ensure your work flows smoothly without interruption.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="bi bi-lightning"></i>
+                        </div>
+                        <h3>Easy Integration</h3>
+                        <p class="text-muted">Seamlessly connects with your existing tools and workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic</h5>
+                            <h2 class="card-price">$9<small class="text-muted">/mo</small></h2>
+                            <ul class="list-unstyled mt-4">
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Basic features</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Up to 5 users</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>2GB storage</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100 mt-4">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional</h5>
+                            <h2 class="card-price">$29<small class="text-muted">/mo</small></h2>
+                            <ul class="list-unstyled mt-4">
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>All Basic features</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Up to 20 users</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>10GB storage</li>
+                            </ul>
+                            <button class="btn btn-primary w-100 mt-4">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium</h5>
+                            <h2 class="card-price">$99<small class="text-muted">/mo</small></h2>
+                            <ul class="list-unstyled mt-4">
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>All Pro features</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Unlimited users</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Unlimited storage</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100 mt-4">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://via.placeholder.com/64" alt="Cliente 1" class="testimonial-img mb-3">
+                            <p class="card-text">"FakeProduct ha transformado nuestra forma de trabajar. Las mejoras en eficiencia son notables."</p>
+                            <h5 class="card-title mb-1">Juan Pérez</h5>
+                            <p class="text-muted">CEO, Empresa 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://via.placeholder.com/64" alt="Cliente 2" class="testimonial-img mb-3">
+                            <p class="card-text">"La mejor inversión que hemos hecho para nuestro equipo. El soporte es excepcional."</p>
+                            <h5 class="card-title mb-1">María García</h5>
+                            <p class="text-muted">CTO, Empresa 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://via.placeholder.com/64" alt="Cliente 3" class="testimonial-img mb-3">
+                            <p class="card-text">"Increíblemente fácil de usar. Ha mejorado nuestra productividad en un 200%."</p>
+                            <h5 class="card-title mb-1">Carlos Rodríguez</h5>
+                            <p class="text-muted">Director, Empresa 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="mb-3">FakeProduct</h5>
+                    <p class="text-muted">Transform your workflow with our innovative solution.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Contacto</h5>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>contact@fakeproduct.com</p>
+                    <p><i class="bi bi-telephone me-2"></i>(555) 123-4567</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Síguenos</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-dark"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center text-muted">
+                <small>&copy; 2024 FakeProduct. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
