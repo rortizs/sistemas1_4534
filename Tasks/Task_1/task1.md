@@ -12,9 +12,9 @@ promotions 5 points final (\*)
 
     Landing Page mvc structure, this columns =
       - Header --> Logo, Menu
-      - Navbar  --> Menu vertical
+      - Navbar  --> Vertical Menu
       - Content Main --> Content
-      - Footer  --> inforamation, social networks, address, phones, contactme
+      - Footer  --> information, social networks, address, phones, contactme
 
 ### Member Leader
 
