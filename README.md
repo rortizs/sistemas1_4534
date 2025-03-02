@@ -1,8 +1,8 @@
-## DESCRIPTION PROJECT ON GITHUB FROM THE COURSE "SYSTEMS ANALYSIS" BY ING. RICHARD ORTIZ
+# DESCRIPCIÓN DEL PROYECTO EN GITHUB DEL CURSO "ANÁLISIS DE SISTEMAS" POR ING. RICHARD ORTIZ
 
-A course project that consists of creating a repository.
+Un proyecto del curso que consiste en crear un repositorio.
 
-## INSTRUCTIONS
+## INSTRUCCIONES
 
 1. Create a repository on GitHub.
 2. Create a README.md file.
@@ -10,25 +10,27 @@ A course project that consists of creating a repository.
 4. Add the README.md file to the repository.
 5. Share the repository link.
 
-## AUTHOR
+## AUTOR
 
-- **Name**: Richard Ortiz
+- **Nombre**: Richard Ortiz
 - **Email**: <rortizs@miumg.edu.gt>
 - **GitHub**: [Richard Ortiz](https://github.com/rortizs)
 
-## GIT COMMANDS
+## COMANDOS GIT
 
-```bash git init # Initialize the repository
-git add README.md # Add the README.md file to the repository
-git commit -m "Initial commit" # Commit the changes
-git branch -M main # Rename the branch to main or branch name you want
-git remote add origin
-git push -u origin main # Push the changes to the repository
+```bash
+git init                      # Inicializar el repositorio
+git add README.md            # Agregar el archivo README.md al repositorio
+git commit -m "Initial commit" # Confirmar los cambios
+git branch -M main           # Renombrar la rama a main o el nombre que desees
+git remote add origin URL    # Reemplazar URL con la dirección de tu repositorio
+git push -u origin main     # Enviar los cambios al repositorio
 ```
 
-## LICENSE
+## LICENCIA
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
+## MVC FREELANCE PORTFOLIO THEME DATEN = 2025-02-03
 
+This theme strcuture mvc bootstrap 5, actualitations static page witch dinamyc page.
